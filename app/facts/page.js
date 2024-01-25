@@ -1,4 +1,4 @@
-export default function () {
+export default function Page() {
     return (
         <ul className="list-none space-y-4 p-4">
             <li className="text-lg font-medium text-pink-500">
