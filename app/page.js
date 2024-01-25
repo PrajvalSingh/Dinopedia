@@ -1,4 +1,5 @@
 import Card from "../components/Card";
+import Navbar from "../components/Navbar";
 import axios from "axios";
 
 async function getNames() {
@@ -17,10 +18,10 @@ export default async function () {
   const names = await getNames();
 
   return (
-    <div className="flex flex-wrap">
-      {names.map((name) => (
-        <Card name={name} key={name} />
-      ))}
-    </div>
+      <div className="flex flex-wrap">
+        {names.map((name) => (
+          <Card name={name} key={name} />
+        ))}
+      </div>
   )
 }

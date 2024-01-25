@@ -19,7 +19,7 @@ export default async function Page({ params }) {
 
     return (
         <div className="flex flex-col items-center justify-center min-h-screen">
-            <Image src={`/${params.name}2.png`} width={500} height={100} alt={`${params.name} Fossil`} />
+            <Image src={`/${params.name}2.png`} width={500} height={100} alt={`${params.name} Fossil`} className="mt-3" />
 
             <br />
 
@@ -28,10 +28,6 @@ export default async function Page({ params }) {
             <p className="text-green-400">Meaning: {data.meaning}</p>
             <br />
             <p>{data.data}</p>
-
-            <div className="fixed top-0 right-0 p-4 text-right text-sm text-gray-400">
-                <Link href="/" className="hover:text-blue-400">Go to Home</Link>
-            </div>
         </div>
     );
 }
