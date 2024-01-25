@@ -20,7 +20,7 @@ export default function Navbar() {
                     </nav>
 
                     <Link className="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-white lg:items-center lg:justify-center mb-4 md:mb-0" href="/">
-                        <Image src="/favicon.ico" width={40} height={40} alt="Logo" />
+                        <Image src="/favicon.png" width={40} height={40} alt="Logo" />
                         <span className="ml-3 text-xl xl:block lg:hidden">Dinohub</span>
                     </Link>
                 </div>
