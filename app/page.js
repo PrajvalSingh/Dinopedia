@@ -1,5 +1,4 @@
 import Card from "../components/Card";
-import Navbar from "../components/Navbar";
 import axios from "axios";
 
 async function getNames() {

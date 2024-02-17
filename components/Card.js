@@ -9,7 +9,7 @@ export default function Card({ name }) {
         <Image className="object-cover w-full h-56" src={`/${name}.png`} width={320} height={224} alt={`${name} Image`}/>
 
         <div className="py-5 text-center">
-          <Link href={`/creature/${name}`} className="block text-xl font-bold text-gray-800 dark:text-white" role="link">{name}</Link>
+          <Link href={`/creature/${name}`} className="block text-xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-500 to-red-500" role="link">{name}</Link>
         </div>
       </div>
     </>
